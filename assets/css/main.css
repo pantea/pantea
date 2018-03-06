@@ -4521,3 +4521,12 @@ ul.footer-links li {
   padding: .2rem .8rem;
   color: #cecece;
 }
+@media screen and (max-width: 480px) {
+    #copyright ul {
+        background: inherit;
+    }
+    #copyright ul li span {
+        background: black;
+        padding: .2rem .8rem;
+    }
+}
