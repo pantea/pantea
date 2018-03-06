@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-loading">
@@ -35,12 +37,12 @@
 					<li><a href="schedule.html">Schedule</a></li>
 					<li><a href="generic.html">Private&nbsp;Lessons</a></li>
 					<li><a href="online-learning.html">Online&nbsp;Learning</a></li>
-					<li><a href="generic.html">Gallery</a></li>
+					<!-- <li><a href="generic.html">Gallery</a></li> -->
 				</ul>
 				<ul class="icons">
-					<li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://www.youtube.com/channel/UCwgt8e_WpOcwWeTr9_Z7z-Q" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+					<li><a href="https://www.facebook.com/Dance-With-Pantea-347392945668162/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/dancewithpantea" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 				</ul>
 			</nav>
 
@@ -56,10 +58,10 @@
               Pantea teaches in San Francisco Bay Area, South Bay.<br />
               Contact us to teach a workshop at your location anywhere in North America!</p>
 					</header>
-					<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-					<ul class="actions">
-						<li><a href="#" class="button big">Full Story</a></li>
-					</ul>
+				</article>
+
+				<article class="post featured">
+          <img src="archive/20180304/adv.png" style="width: 100%" />
 				</article>
 
 			</div>
@@ -68,7 +70,7 @@
 			<footer id="footer">
 				<section class="footer-contact-form" >
           <p>Use this form for inquiries or to schedule a private class.</p>
-					<form method="post" action="#">
+					<form method="post" action="#" id="contact" >
 						<div class="field">
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name" />
@@ -89,29 +91,36 @@
 				<section class="split contact">
 					<section class="alt">
             <ul class="actions footer-links">
-							<li><a class="button" href="#">Home</a></li>
-							<li><a class="button" href="#">Salsa</a></li>
-							<li><a class="button" href="#">Bachata</a></li>
-							<li><a class="button" href="#">Schedule</a></li>
-							<li><a class="button" href="#">Private&nbsp;Lessons</a></li>
-							<li><a class="button" href="#">Online&nbsp;Learning</a></li>
-							<li><a class="button" href="#">Gallery</a></li>
+							<li><a class="button" href="index.html">News</a></li>
+							<!-- <li><a class="button" href="#">Salsa</a></li>
+							<li><a class="button" href="#">Bachata</a></li> -->
+							<li><a class="button" href="schedule.html">Schedule</a></li>
+							<li><a class="button" href="private-lessons.html">Private&nbsp;Lessons</a></li>
+							<li><a class="button" href="online-learning.html">Online&nbsp;Learning</a></li>
+							<!-- <li><a class="button" href="gallery.html">Gallery</a></li> -->
 						</ul>
 					</section>
 					<section>
 						<h3>Email</h3>
-						<p><a href="#">salsawithpantea@gmail.com</a></p>
+						<p><a href="mailto:dancewithpantea@gmail.com">dancewithpantea@gmail.com</a></p>
 					</section>
 					<section>
 						<h3>Social</h3>
 						<ul class="icons alt">
-							<li><a href="#" class="icon alt fa-youtube"><span class="label">Youtube</span></a></li>
-							<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UCwgt8e_WpOcwWeTr9_Z7z-Q" class="icon alt fa-youtube"><span class="label">Youtube</span></a></li>
+							<li><a href="https://www.facebook.com/Dance-With-Pantea-347392945668162/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/dancewithpantea" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
 						</ul>
 					</section>
 				</section>
 			</footer>
+      <div class="modal" id="contactModal" >
+        <h3>Please email<br />
+          <b>dancewithpantea@gmail.com</b>
+        </h3>
+        <p>Regretfully, due to the current hosting setup, the contact form is out of order. Please email dancewithpantea@gmail.com or call, (877) 216-3525.</p>
+        <p>We apologize for any inconvenience.</p>
+      </div>
 
 			<!-- Copyright -->
 			<div id="copyright">
@@ -127,6 +136,7 @@
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 
 	</body>
 </html>

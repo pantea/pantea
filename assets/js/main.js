@@ -265,4 +265,12 @@
 
 	});
 
+  $('form#contact input').on('focus', function () {
+    $("#contactModal").modal()
+  })
+  $('form#contact textarea').on('focus', function () {
+    $("#contactModal").modal()
+  })
+
+
 })(jQuery);
